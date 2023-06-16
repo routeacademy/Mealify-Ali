@@ -1,0 +1,262 @@
+@media screen and (0px < width <= 576px) {
+  .container {
+    width: 95%;
+  }
+  .navPages {
+    display: none;
+  }
+  header {
+    padding-top: 100px;
+    height: 100%;
+    padding-bottom: 45px;
+  }
+  header .container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header .homeImage {
+    width: 100%;
+  }
+  .homeContent {
+    width: 100%;
+  }
+  header .homeContent button:first-of-type {
+    border-radius: 100vh;
+  }
+  /* !Chefs */
+  .chefsCards {
+    flex-direction: column;
+  }
+  .chefsCardItem {
+    width: 100%;
+  }
+  /* !Gallery */
+  .galleryImages {
+    height: unset;
+  }
+  .galleryImages .galleryItem {
+    width: 100%;
+  }
+  .galleryImages .pizza {
+    order: -3;
+  }
+  .galleryImages .burger {
+    order: -2;
+  }
+  .galleryImages .Lpizza {
+    order: -1;
+  }
+  /* !Contact */
+  .contactInfoCard {
+    width: 100%;
+  }
+  form input:nth-child(-n + 2) {
+    width: 100%;
+  }
+
+  /* !Footer */
+  .footerCards {
+    flex-direction: column;
+  }
+  .footerCards .infoCard {
+    width: 100%;
+  }
+
+  .footerCards .aboutCard {
+    width: 100%;
+  }
+  .footerCards .contactCard {
+    width: 100%;
+  }
+
+  .footerCards .aboutCard input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .footerCards .aboutCard button {
+    width: 100%;
+  }
+}
+@media screen and (576px < width <= 768px) {
+  .container {
+    width: 90%;
+  }
+  .navPages {
+    display: none;
+  }
+  header {
+    padding-top: 100px;
+    height: 100%;
+    padding-bottom: 45px;
+  }
+  header .container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header .homeImage {
+    width: 100%;
+  }
+  .homeContent {
+    width: 100%;
+  }
+  header .homeContent button:first-of-type {
+    border-radius: 100vh;
+  }
+  /* !Chefs */
+  .chefsCards {
+    flex-direction: column;
+  }
+  .chefsCardItem {
+    width: 100%;
+  }
+  /* !Gallery */
+  .galleryImages {
+    height: unset;
+  }
+  .galleryImages .galleryItem {
+    width: 100%;
+  }
+  .galleryImages .pizza {
+    order: -4;
+  }
+  .galleryImages .burger {
+    order: -3;
+  }
+  .galleryImages .Lpizza {
+    order: -2;
+  }
+  .galleryImages .potato {
+    order: -1;
+  }
+  /* !Contact */
+  .contactInfoCard {
+    width: 100%;
+  }
+  form input:nth-child(-n + 2) {
+    width: 100%;
+  }
+
+  /* !Footer */
+  .footerCards {
+    flex-direction: column;
+  }
+  .footerCards .infoCard {
+    width: 100%;
+  }
+  .footerCards .aboutCard {
+    width: 100%;
+  }
+  .footerCards .contactCard {
+    width: 100%;
+  }
+}
+@media screen and (768px < width <= 992px) {
+  .container {
+    width: 85%;
+  }
+  .navPages {
+    display: none;
+  }
+  header {
+    padding-top: 100px;
+    height: 100%;
+    padding-bottom: 45px;
+  }
+  header .container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header .homeImage {
+    width: 100%;
+  }
+  .homeContent {
+    width: 100%;
+  }
+  header .homeContent button:first-of-type {
+    border-radius: 100vh;
+  }
+  /* !Chefs */
+  .chefsCardItem {
+    width: calc(calc(100% - var(--defaultGap) * 2) / 2);
+  }
+  /* !Gallery */
+  .galleryImages {
+    height: 100rem;
+  }
+  .galleryImages .galleryItem {
+    width: calc(calc(100% - var(--defaultGap) * 2) / 2);
+  }
+  .galleryImages .pizza {
+    order: -4;
+  }
+  .galleryImages .burger {
+    order: -3;
+  }
+  .galleryImages .Lpizza {
+    order: -2;
+  }
+  .galleryImages .potato {
+    order: -1;
+  }
+  /* !Contact */
+  form input:nth-child(-n + 2) {
+    width: 100%;
+  }
+
+  /* !Footer */
+  .footerCards .infoCard {
+    width: calc(50% - var(--defaultGap));
+  }
+  .footerCards .aboutCard {
+    width: calc(100% - var(--defaultGap));
+    order: 1;
+  }
+  .footerCards .contactCard {
+    width: calc(50% - var(--defaultGap));
+  }
+}
+@media screen and (992px < width <= 1200px) {
+  .container {
+    width: 85%;
+  }
+  .navPages {
+    display: none;
+  }
+  /* !Header */
+  header {
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 45px;
+  }
+  .homeContent {
+    width: 50%;
+  }
+  /* !Gallery */
+  .galleryImages {
+    height: 55rem;
+  }
+
+  /* !Footer */
+  .footerCards .infoCard {
+    width: calc(50% - var(--defaultGap));
+  }
+  .footerCards .aboutCard {
+    width: calc(100% - var(--defaultGap));
+    order: 1;
+  }
+  .footerCards .contactCard {
+    width: calc(50% - var(--defaultGap));
+  }
+}
+@media screen and (1200px < width <= 1600px) {
+  .container {
+    width: 85%;
+  }
+}
